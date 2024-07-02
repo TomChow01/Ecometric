@@ -9,6 +9,7 @@ v_2/
 images/
 output_dump/*.png
 *.npy
+*.md
 
 __pycache__/
 *.py[cod]
