@@ -4,6 +4,12 @@
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
+
+v_2/
+images/
+output_dump/*.png
+*.npy
+
 __pycache__/
 *.py[cod]
 *$py.class

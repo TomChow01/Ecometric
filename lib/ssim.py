@@ -22,6 +22,8 @@ def create_window(window_size, channel):
 
 
 def _ssim(img1, img2, window, window_size, channel, size_average=True, filter_nan=False):
+    # print(img1.shape, img2.shape)
+    # print(img1.dtype, img2.dtype)
     mu1 = F.conv2d(img1, window, padding = window_size//2, groups = channel)
     mu2 = F.conv2d(img2, window, padding = window_size//2, groups = channel)
 
@@ -56,7 +58,7 @@ def _ssim(img1, img2, window, window_size, channel, size_average=True, filter_na
 
 
 class SSIM(torch.nn.Module):
-    def __init__(self, window_size=11, channel=1, device='cuda', size_average=True, filter_nan=False):
+    def __init__(self, window_size=11, channel=3, device='cuda', size_average=True, filter_nan=False):
         super(SSIM, self).__init__()
         self.window_size = window_size
         self.size_average = size_average

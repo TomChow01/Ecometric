@@ -92,7 +92,7 @@ class NestedUNet(nn.Module):
             self.final3 = nn.Sequential(nn.Conv2d(nb_filter[0], num_classes, kernel_size=1), nn.ReLU())
             self.final4 = nn.Sequential(nn.Conv2d(nb_filter[0], num_classes, kernel_size=1), nn.ReLU())
         else:
-            self.final = = nn.Sequential(nn.Conv2d(nb_filter[0], num_classes, kernel_size=1), nn.ReLU())
+            self.final = nn.Sequential(nn.Conv2d(nb_filter[0], num_classes, kernel_size=1), nn.ReLU())
 
     def forward(self, input):
 
