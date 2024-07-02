@@ -1,4 +1,4 @@
-This is our entry to the [Climate Informatics hackathon 2020](https://ci2020.web.ox.ac.uk/) in which we came 1st. Our solution is based on U-Net++ [1].
+<!-- This is our entry to the [Climate Informatics hackathon 2020](https://ci2020.web.ox.ac.uk/) in which we came 1st. Our solution is based on U-Net++ [1].
 
 The public version of the hackathon can be found here:
 [https://competitions.codalab.org/competitions/26644](https://competitions.codalab.org/competitions/26644)
@@ -34,4 +34,4 @@ Our best solution (measured by SSIM) in the challenge was based on notebook `02`
 
 References
 
-[1] Zhou, Zongwei et al. _“UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation.”_ IEEE transactions on medical imaging vol. 39,6 (2020): 1856-1867. doi:10.1109/TMI.2019.2959609
+[1] Zhou, Zongwei et al. _“UNet++: Redesigning Skip Connections to Exploit Multiscale Features in Image Segmentation.”_ IEEE transactions on medical imaging vol. 39,6 (2020): 1856-1867. doi:10.1109/TMI.2019.2959609 -->
